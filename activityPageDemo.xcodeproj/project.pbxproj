@@ -15,6 +15,8 @@
 		B43DA36A1FEA379800D80BAC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B43DA3691FEA379800D80BAC /* main.m */; };
 		B43DA3741FEA379800D80BAC /* activityPageDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B43DA3731FEA379800D80BAC /* activityPageDemoTests.m */; };
 		B43DA37F1FEA379800D80BAC /* activityPageDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B43DA37E1FEA379800D80BAC /* activityPageDemoUITests.m */; };
+		B449B15F1FEB9F2B00BA89E4 /* ActivityCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B449B15E1FEB9F2B00BA89E4 /* ActivityCell.m */; };
+		B45566051FECB907007FBE85 /* XSTActivityConst.m in Sources */ = {isa = PBXBuildFile; fileRef = B45566031FECB907007FBE85 /* XSTActivityConst.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		B43DA37A1FEA379800D80BAC /* activityPageDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = activityPageDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B43DA37E1FEA379800D80BAC /* activityPageDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = activityPageDemoUITests.m; sourceTree = "<group>"; };
 		B43DA3801FEA379800D80BAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B449B15D1FEB9F2B00BA89E4 /* ActivityCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ActivityCell.h; sourceTree = "<group>"; };
+		B449B15E1FEB9F2B00BA89E4 /* ActivityCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ActivityCell.m; sourceTree = "<group>"; };
+		B45566031FECB907007FBE85 /* XSTActivityConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XSTActivityConst.m; sourceTree = "<group>"; };
+		B45566041FECB907007FBE85 /* XSTActivityConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XSTActivityConst.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +107,8 @@
 		B43DA3591FEA379800D80BAC /* activityPageDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B45566041FECB907007FBE85 /* XSTActivityConst.h */,
+				B45566031FECB907007FBE85 /* XSTActivityConst.m */,
 				B43DA35A1FEA379800D80BAC /* AppDelegate.h */,
 				B43DA35B1FEA379800D80BAC /* AppDelegate.m */,
 				B43DA35D1FEA379800D80BAC /* ViewController.h */,
@@ -110,6 +118,8 @@
 				B43DA3651FEA379800D80BAC /* LaunchScreen.storyboard */,
 				B43DA3681FEA379800D80BAC /* Info.plist */,
 				B43DA3691FEA379800D80BAC /* main.m */,
+				B449B15D1FEB9F2B00BA89E4 /* ActivityCell.h */,
+				B449B15E1FEB9F2B00BA89E4 /* ActivityCell.m */,
 			);
 			path = activityPageDemo;
 			sourceTree = "<group>";
@@ -267,6 +277,8 @@
 			files = (
 				B43DA35F1FEA379800D80BAC /* ViewController.m in Sources */,
 				B43DA36A1FEA379800D80BAC /* main.m in Sources */,
+				B45566051FECB907007FBE85 /* XSTActivityConst.m in Sources */,
+				B449B15F1FEB9F2B00BA89E4 /* ActivityCell.m in Sources */,
 				B43DA35C1FEA379800D80BAC /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,9 +443,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G583SJY324;
 				INFOPLIST_FILE = activityPageDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = hwd.activityPageDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hwd.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -444,9 +457,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = G583SJY324;
 				INFOPLIST_FILE = activityPageDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = hwd.activityPageDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.hwd.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
